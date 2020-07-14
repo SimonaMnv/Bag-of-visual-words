@@ -1,10 +1,11 @@
 # Bag-of-visual-words
  Bag of Visual Words image classification
- 
-# Using feature detectors:
-#       [1] for SIFT,
-#       [2] for ORB,
-#       [3] for BRISK.
-# and clustering methods:
-#       [1] for MiniBatch K-means,
-#       [2] for Affinity Propagation -> Only works with a VERY small number (aprox: 5%:95% ratio)
+
+feature detectors used:
+1. Brisk
+2. sift
+3. orb
+
+clustering methods used:
+1. MiniBatch K-Means (use K-Means for better results -> worst performance)
+2. Affinity Propagation
